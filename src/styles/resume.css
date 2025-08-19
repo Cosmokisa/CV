@@ -1,0 +1,189 @@
+.resume-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    max-width: 1100px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.main-content {
+    border-right: 1px dashed #e0e0e0;
+    padding-right: 2rem;
+}
+
+/*header styles*/
+
+.header-subtitle {
+    font-weight: 400;
+    color: #888;
+}
+
+.header-title {
+    font-size: 3em;
+    font-weight: 700;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.header-text {
+    color: #666;
+    margin-bottom:3rem;
+}
+
+.wrapper {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+
+/*projects section styles*/
+
+.projects {
+    margin-bottom: 2rem;
+}
+
+.projects-list {
+    padding-left: 3rem;
+    list-style: decimal;
+    color: #333;
+}
+
+.projects-list_item {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    font-size: 1rem;
+    color: #555;
+}
+
+.projects-list_link {
+    color: #d81b1b;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.projects-list_link:hover {
+    color: #a11212;
+    transform: translateX(4px);
+}
+
+/*experience and education sections styles*/
+
+.experience-title, .education-title, .projects-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+h3::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #d81b1b;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.job, .school {
+    display:flex;
+    flex-flow: row wrap;
+    font-size: 1.2rem;
+}
+
+.job-position {
+    font-weight: 600;
+    color: #333;
+}
+
+.job-company {
+    color: #424141;
+    margin-left: 0.5rem;
+}
+
+.education-field {
+    color: #424141;
+}
+
+.job-duration, .education-duration {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.job-responsibilities {
+    padding-left: 3rem;
+    list-style-type: disc;
+    color: #888;
+    margin:2rem 0;
+}
+
+.education-entry {
+    margin-bottom: 1rem;
+}
+
+/* sidebar styles */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.photo-container {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*contacts styles*/
+
+.contacts-location, .contacts-tel, .contacts-email {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/*links styles*/
+
+.linkedin-link, .github-link {
+    display: block;
+    font-size: 0.9em;
+    color: #d81b1b;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    transition: transform 0.2s;
+}
+
+.linkedin-link:hover, .github-link:hover  {
+    transform: translateX(5px);
+    color: #d81b1b;
+}
+
+/*skills and language styles*/
+
+.skill-list, .language-list {
+    list-style-type: none;
+}
+
+.skill-list_item, .language-list_item {
+    font-size: 0.9em;
+    color: #555;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+

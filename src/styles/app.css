@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.resume {
+    font-family: "Delius", cursive;
+    /*font-family: "Poppins", sans-serif;*/
+    line-height: 1.6;
+    color: #444;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

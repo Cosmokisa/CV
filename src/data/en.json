@@ -1,0 +1,113 @@
+{
+  "labels": {
+    "tech": "Tech Skills",
+    "other": "Other Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "languages": "Languages",
+    "contact": "Contact",
+    "projects": "Projects"
+  },
+  "content": {
+    "name": "Olga Suhomlinova",
+    "title": "Front-End | 3D Art",
+    "contact": {
+      "tel": "+359877899944",
+      "email": "olga.s.frontend@gmail.com",
+      "location": "Bansko, Bulgaria"
+    },
+    "about": "I’m a front-end developer with a background in 3D modeling and a big curiosity for how things work — visually and technically. I love the process of bringing interfaces to life with React, making sure they not only work well but feel right to use.In the past, I’ve worked with tools like Maya and Substance Painter, which taught me a lot about design, structure, and detail. That same care for detail now guides my code.I’m someone who learns quickly, stays organized, and genuinely enjoys getting better every day. There’s so much to explore in tech — and I’m excited to grow step by step. I’d love to be part of a team that’s supportive, open, and focused on creating good things together.So many interesting things out there, and only one life — let’s take the most of it :)",
+    "projects": [
+      {
+        "title": "Portfolio project",
+        "year": 2024,
+        "stack": "HTML/CSS, SCSS",
+        "link": "https://cosmokisa.github.io/Portfolio/"
+      },
+      {
+        "title": "News application",
+        "year": 2025,
+        "stack": "ReactJS/CSS",
+        "link": "https://cosmokisa.github.io/News-app/"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Alorica",
+        "role": "Content Moderator",
+        "duration": "May 2022 - Aug 2024",
+        "location": "Sofia, Bulgaria",
+        "responsibilities": [
+          "Moderate and analyze content within various moderation categories;",
+          "Ensure accuracy and compliance with platform policies;",
+          "Quickly adapt to changes in moderation policies and criteria;",
+          "Maintain meticulous attention to detail in content review."
+        ]
+      },
+      {
+        "company": "TELUS International",
+        "role": "Support Specialist",
+        "duration": "Jan 2015 – May 2022",
+        "location": "Sofia, Bulgaria",
+        "responsibilities": [
+          "Work with gameplay requests;",
+          "Analyzing and entering data in company software;",
+          "Query reporting, operational bug reporting;",
+          "Collaboration with developers (direct or indirect);",
+          "Purchase checks, refunds."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Beetroot Academy",
+        "field": "Front-End development",
+        "duration": "2024–2025",
+        "details": "Completed an intensive Front-End development course covering HTML5, CSS3, JavaScript (ES6+), Git, and React.Built multiple responsive web applications using real-world tools and workflows.Gained hands-on experience with version control, component-based architecture, and team collaboration."
+      },
+      {
+        "school": "VideoSmile",
+        "field": "3D Modeling / Computer Graphics / Digital Art",
+        "duration": "2020–2022",
+        "details": "Completed a practical course focused on creating game-ready 3D assets using Maya and Substance Painter. Covered advanced modeling, texturing, UV-mapping, rigging, and rendering for real-time environments. Gained hands-on experience navigating the Maya interface, building detailed models, and assembling complete 3D scenes."
+      }
+    ],
+    "tech-skills": [
+      "HTML5 | CSS3 | JavaScript",
+      "React",
+      "Git | GitHub",
+      "Figma",
+      "Photoshop",
+      "MAYA",
+      "Substance Painter"
+    ],
+    "other-skills": [
+      "Attention to Detail",
+      "Problem Solving",
+      "Creative thinking",
+      "Responsibility"
+    ],
+    "languages": [
+      {
+        "language": "Ukrainian",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "B2"
+      },
+      {
+        "language": "Bulgarian",
+        "level": "Fluent"
+      },
+      {
+        "language": "Russian",
+        "level": "Native"
+      }
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/olga-sukhomlinova-4b647a279/",
+      "github": "https://github.com/Cosmokisa"
+    }
+  }
+}
