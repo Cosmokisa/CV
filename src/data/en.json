@@ -5,8 +5,9 @@
     "experience": "Experience",
     "education": "Education",
     "languages": "Languages",
-    "contact": "Contact",
-    "projects": "Projects"
+    "contacts": "Contact",
+    "projects": "Projects",
+    "links": "Links"
   },
   "content": {
     "name": "Olga Suhomlinova",

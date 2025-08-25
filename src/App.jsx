@@ -8,7 +8,7 @@ import bg from './data/bg.json';
 
 function App() {
     return (
-        <div className="resume">
+        <div className="app">
             <Routes>
                 <Route path="/" element={<Navigate to="/en" />} />
                 <Route path="/en" element={<Resume data={en} />} />
