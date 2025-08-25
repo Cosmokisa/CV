@@ -19,3 +19,11 @@
     background-color: #d81b1b;
     font-weight: 600;
 }
+
+
+@media (max-width: 430px)  {
+    .nav-link {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
